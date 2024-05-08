@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.blood-type-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fc;
+    padding: 20px;
+}
+
+.blood-type-card {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #d1d3e2;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blood-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #c81c1c;
+}
+
+.blood-type-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 5px;
+}
